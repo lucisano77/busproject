@@ -24,9 +24,9 @@ public class BusController {
         return busService.getAllBusRoute();
     }
 
-    // Get buses by route name
+    // Get bus by route name
     @GetMapping("/byRoute")
-    public List<BusRoute> getBusesByRouteName(@RequestParam String routeName) {
+    public List<BusRoute> getBusByRouteName(@RequestParam String routeName) {
         return busService.getBusByRoute(routeName);
     }
 
@@ -37,3 +37,11 @@ public class BusController {
     }
 
 }
+// class, interface, diff.
+// wt is constant , diff. with normal data type, how to write
+// public,private,protected, final
+// oop(shit)
+
+// https://data.gov.hk/en-data/dataset/hk-td-tis_21-etakmb
+// api -> just like "byroute" -> e.g. search 1 -> show all 1 stop
+// api -> set bound O or I
