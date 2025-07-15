@@ -37,11 +37,12 @@ public class BusController {
     }
 
 }
-// class, interface, diff.
+// class, interface, diff. 
 // wt is constant , diff. with normal data type, how to write
 // public,private,protected, final
 // oop(shit)
-
+//JsonObject {} 
+//JsonArray [] Order of values is important
 // https://data.gov.hk/en-data/dataset/hk-td-tis_21-etakmb
 // api -> just like "byroute" -> e.g. search 1 -> show all 1 stop
 // api -> set bound O or I
